@@ -11,6 +11,8 @@
 		0D2B8C822C667F34001BE023 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2B8C812C667F34001BE023 /* ContentView.swift */; };
 		0D2B8C842C667F35001BE023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D2B8C832C667F35001BE023 /* Assets.xcassets */; };
 		0D2B8C872C667F35001BE023 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D2B8C862C667F35001BE023 /* Preview Assets.xcassets */; };
+		0D7507172C6687CC0005E690 /* BucketListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7507162C6687CC0005E690 /* BucketListItem.swift */; };
+		0D91B43F2C668711004B7AB3 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D91B43E2C668711004B7AB3 /* Trip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		0D2B8C812C667F34001BE023 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0D2B8C832C667F35001BE023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D2B8C862C667F35001BE023 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0D7507162C6687CC0005E690 /* BucketListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListItem.swift; sourceTree = "<group>"; };
+		0D91B43E2C668711004B7AB3 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				0D2B8C7F2C667F34001BE023 /* TripsAppApp.swift */,
+				0D91B43E2C668711004B7AB3 /* Trip.swift */,
+				0D7507162C6687CC0005E690 /* BucketListItem.swift */,
 				0D2B8C812C667F34001BE023 /* ContentView.swift */,
 				0D2B8C832C667F35001BE023 /* Assets.xcassets */,
 				0D2B8C852C667F35001BE023 /* Preview Content */,
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D7507172C6687CC0005E690 /* BucketListItem.swift in Sources */,
+				0D91B43F2C668711004B7AB3 /* Trip.swift in Sources */,
 				0D2B8C822C667F34001BE023 /* ContentView.swift in Sources */,
 				0D2B8C802C667F34001BE023 /* TripsAppApp.swift in Sources */,
 			);
